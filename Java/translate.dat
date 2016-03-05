@@ -1,0 +1,21 @@
+# Define translations performed by program
+# translates functions and identifiers
+#
+
+#  Miscellaneous translations
+#
+#  Miscellaneous Identifier Translations
+-replaceID  "YES" "true"
+-replaceID  "TRUE" "true"
+-replaceID  "NO" "false"
+-replaceID  "FALSE" "false"
+-replaceID  "nil" "nil"
+-replaceID  "NULL" "nil"
+-replaceID  "bool" ""
+-replaceID  "IBAction" ""
+-replaceID  "IBOutlet" ""
+
+#  Miscellaneous Function Translations
+-replaceFUNC  ".autorelease()" ""
+-replaceFUNC  ".retain()" ""
+-replaceFUNC  ".release()" ""
